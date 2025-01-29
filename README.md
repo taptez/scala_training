@@ -1,0 +1,1 @@
+Apprentissage du langage Scala et de la programmation fonctionnelle
