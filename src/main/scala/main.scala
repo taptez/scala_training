@@ -18,6 +18,7 @@ def main(): Unit =
   //println(s"L'élément à la position $pos dans la suite de fibonacci est " + Basics.fibonacciPos(pos))
 
   //Games.plusOrMinus()
+  //Games.plusOrMinusPatterMatching()
 
   //val per = Person("Martin", "Homme", 1958)
   //println(per.isOlder(Person("Donald", "Homme", 1968)))
@@ -27,10 +28,11 @@ def main(): Unit =
   //println(FunctionalPratice.factorial(7))
   //println(FunctionalPratice.factorial(7000))
 
-  //val list = List(1, 2, 3, 4, 5, 0, 7, -1)
+  val list = List(1, 2, 3, 4, 5, 0, 7, -1)
   //def addOne(x: Int): Int = x + 1
-  //println(list)
+  println(list)
   //println(FunctionalPratice.reverseList(list))
+  println(FunctionalPratice.reverseListPatternMatching(list))
   //println(FunctionalPratice.mapList(list, addOne))
   //println(FunctionalPratice.filterList(list = list, exp = (x: Int) => x > 3))
 

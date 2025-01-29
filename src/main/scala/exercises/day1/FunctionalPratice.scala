@@ -22,6 +22,11 @@ object FunctionalPratice:
 
     innerList
 
+  //Reverse list avec du pattern matching
+  def reverseListPatternMatching[T](list: List[T]): List[T] = list match
+    case head :: tail => reverseListPatternMatching(tail) :+ head
+    case _ => Nil
+
 
   //list.map
   def mapList[T](list: List[T], f: T => T): List[T] =

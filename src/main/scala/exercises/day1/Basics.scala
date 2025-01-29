@@ -4,7 +4,12 @@ package exercises.day1
 object Basics:
 
   def fizzBuzz(number: Int = 10): Unit =
-    (1 to number).map(x => if (x % 3 == 0 && x % 5 == 0) then println("FizzBuzz") else if(x % 3 == 0) then println("Fizz") else println(x))
+    (1 to number).foreach {
+      case v if v % 3 == 0 && v % 5 == 0 => println("FizzBuzz")
+      case v if v % 3 == 0 => println("Fizz")
+      case x => println(x)
+    }
+  //(1 to number).map(x => if (x % 3 == 0 && x % 5 == 0) then println("FizzBuzz") else if(x % 3 == 0) then println("Fizz") else println(x))
 
   def savings(beginAmount: Double, endAmount: Double, ratesInterest: Double): Int =
     (endAmount / (beginAmount + (beginAmount * ratesInterest))).toInt

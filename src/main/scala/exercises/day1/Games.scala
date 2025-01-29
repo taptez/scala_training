@@ -37,3 +37,24 @@ object Games:
       keyboardOutput = readKeyBoardPM()
 
     println(s"Vous avez trouvez le bon nombre: $number en $iter itération(s)")
+
+
+  def plusOrMinusPatterMatching(): Unit =
+    var iter = 0
+
+    println("Bienvenue dans le jeu du plus ou moins")
+    val number = Random.nextInt(100) + 1
+    println(s"Pour test, il nombre est $number")
+
+    var keyboardOutput = 0
+
+    while(keyboardOutput != number || (keyboardOutput < 1 && keyboardOutput > 100)) do
+      print("Entrez un nombre entre 1 et 100 : ")
+      keyboardOutput = StdIn.readLine().toIntOption.getOrElse(0)
+      iter += 1
+
+      keyboardOutput match
+        case 0 =>
+        case v if v < number => println("Le nombre à deviner est plus grand")
+        case v if v > number => println("Le nombre à deviner est plus petit")
+        case v if v == number => println(s"Vous avez trouvez le bon nombre: $number en $iter itération(s)")
