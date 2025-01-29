@@ -28,3 +28,10 @@ object Functional:
       else innerLength(innerRange.tail, acc + 1)
 
     innerLength(range, 0)
+
+
+  def sum(x:Int, y: Int, z:Int) = x + y + z
+  def curryfieldSum(x: Int)(y: Int)(z: Int) = x + y + z
+  def partialSum1 = curryfieldSum(10)_             //definit une fonction (Int , Int ) => Int qui calcule 10 + y + z
+  def partialSum2 = curryfieldSum(10)(10)_         //definit une fonction Int => Int qui calcule 10 + 10 + z
+

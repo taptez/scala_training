@@ -12,3 +12,29 @@ object FunctionalPratice:
       else innerFactorial(innerN - 1, innerN * acc) // n * factorial(n - 1)
 
     innerFactorial(n, BigInt(1))
+
+
+  //list.reverse
+  def reverseList[T](list: List[T]): List[T] =
+    var innerList: List[T] = List()
+    for (i <- list.length - 1 to 0 by -1) do
+      innerList = innerList :+ list(i)
+
+    innerList
+
+
+  //list.map
+  def mapList[T](list: List[T], f: T => T): List[T] =
+    //println(list.head :: list.tail)
+    //println(list.tail)
+    list match
+      case head :: tail => f(head) :: mapList(tail, f)
+      case _ => Nil
+
+
+  //list.filter
+  def filterList[T](list: List[T], exp: T => Boolean): List[T] =
+    list match
+      case head :: tail => if(exp(head)) then head :: filterList(tail, exp) else filterList(tail, exp)
+      case _ => Nil
+
