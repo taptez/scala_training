@@ -10,4 +10,4 @@ lazy val root = (project in file("."))
   )
 
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.19" % Test
-libraryDependencies += "org.scalameta" %% "munit" % "1.0.0" % Test
+libraryDependencies += "org.scalameta" %% "munit" % "1.1.0" % Test
