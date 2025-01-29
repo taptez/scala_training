@@ -26,13 +26,13 @@ def main(): Unit =
   //Driver.drive(Bicycle())
 
   //println(FunctionalPratice.factorial(7))
-  //println(FunctionalPratice.factorial(7000))
+  println(FunctionalPratice.factorial(10))
 
-  val list = List(1, 2, 3, 4, 5, 0, 7, -1)
+  //val list = List(1, 2, 3, 4, 5, 0, 7, -1)
   //def addOne(x: Int): Int = x + 1
-  println(list)
+  //println(list)
   //println(FunctionalPratice.reverseList(list))
-  println(FunctionalPratice.reverseListPatternMatching(list))
+  //println(FunctionalPratice.reverseListPatternMatching(list))
   //println(FunctionalPratice.mapList(list, addOne))
   //println(FunctionalPratice.filterList(list = list, exp = (x: Int) => x > 3))
 
