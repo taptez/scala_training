@@ -1,5 +1,5 @@
 package com.zounon
-package exercices.jour1
+package exercises.day1
 
 import scala.io.StdIn
 import scala.util.Random

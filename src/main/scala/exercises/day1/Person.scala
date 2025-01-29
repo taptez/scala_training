@@ -1,5 +1,5 @@
 package com.zounon
-package exercices.jour1
+package exercises.day1
 
 class Person(_name: String, _gender: String, _birthYear: Int) :
   val name: String = _name

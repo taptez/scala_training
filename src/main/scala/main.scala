@@ -1,6 +1,6 @@
 package com.zounon
 
-import exercices.jour1.{Basics, Bicycle, Driver, FunctionalPratice, Games, Person}
+import exercises.day1.{Basics, Bicycle, Driver, FunctionalPratice, Games, Person}
 
 
 @main
