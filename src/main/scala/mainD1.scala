@@ -6,7 +6,7 @@ import examples.Functional
 
 
 @main
-def main(): Unit =
+def mainD1(): Unit =
   //Basics.fizzBuzz(20)
 
   //println(Basics.savings(100000, 500000, 0.3))
