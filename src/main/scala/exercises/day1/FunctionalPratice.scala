@@ -14,8 +14,9 @@ object FunctionalPratice:
     innerFactorial(n, BigInt(1))
 
 
-  //list.reverse
   def reverseList[T](list: List[T]): List[T] =
+    //list.reverse
+    //list.foldLeft(List[T]())((v1, v2) => v2::v1)
     var innerList: List[T] = List()
     for (i <- list.length - 1 to 0 by -1) do
       innerList = innerList :+ list(i)
@@ -28,8 +29,8 @@ object FunctionalPratice:
     case _ => Nil
 
 
-  //list.map
   def mapList[T](list: List[T], f: T => T): List[T] =
+    //list.map
     //println(list.head :: list.tail)
     //println(list.tail)
     list match
@@ -37,8 +38,8 @@ object FunctionalPratice:
       case _ => Nil
 
 
-  //list.filter
   def filterList[T](list: List[T], exp: T => Boolean): List[T] =
+    //list.filter
     list match
       case head :: tail => if(exp(head)) then head :: filterList(tail, exp) else filterList(tail, exp)
       case _ => Nil

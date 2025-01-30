@@ -1,0 +1,7 @@
+Fruit et légume;Citron;2
+
+Epicerie;Biscottes;3.2
+
+Frais;Beurre;3.4
+
+Surgélés;Glace

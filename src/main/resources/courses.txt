@@ -1,0 +1,22 @@
+Fruit et légume;Citron;2
+Fruit et légume;Clémentine;4.6
+Fruit et légume;Avocat;5.2
+Fruit et légume;Carote;0.99
+Fruit et légume;Pomme de terre;5.6
+
+Epicerie;Biscottes;3.2
+Epicerie;Caffé;7
+Epicerie;Haricots;2.5
+
+Frais;Beurre;3.4
+Frais;Crème fraîche;1.79
+Frais;Fromage blanc;5.6
+Frais;Lait;9.35
+
+Viande;Poulet;8.7
+Viande;Canard;11.23
+Viande;Porc;8.99
+
+Hygiène;Dentifrice;2.89
+Hygiène;Lessive;7.65
+Hygiène;Sacs poubelle;3.8
