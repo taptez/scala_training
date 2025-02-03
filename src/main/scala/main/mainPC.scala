@@ -1,13 +1,15 @@
 package com.zounon
+package main
+
+import examples.{Greet, MyActor}
+
+import akka.actor.{Actor, ActorSystem, Props}
 
 import scala.collection.parallel.CollectionConverters.*
 import scala.concurrent.*
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.duration.Duration
 import scala.util.*
-import scala.concurrent.ExecutionContext
-import akka.actor.{Actor, ActorSystem, Props}
-import com.zounon.examples.{Greet, MyActor}
 
 @main
 def mainPC(): Unit =

@@ -1,8 +1,8 @@
 package com.zounon
-
-import exercises.day1.{Basics, Bicycle, Driver, FunctionalPratice, Games, Person}
+package main
 
 import examples.Functional
+import exercises.day1.*
 
 
 @main

@@ -20,7 +20,7 @@ object Games:
       }
       (consoleNumber, innerIter)
 
-    // Programme principale
+    // Programme principal
     println("Bienvenue dans le jeu du plus ou moins")
     val number = Random.nextInt(100) + 1
     //println(s"Pour test, il nombre est $number")

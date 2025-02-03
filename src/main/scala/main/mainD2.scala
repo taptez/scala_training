@@ -1,12 +1,11 @@
 package com.zounon
+package main
 
+import examples.TestDoc
 import exercises.day2.shopping.{Accountancy, ShoppingList}
 
-import com.zounon.examples.TestDoc
-
-import scala.util.{Try, Success, Failure}
-
-import scala.collection.parallel.CollectionConverters._
+import scala.collection.parallel.CollectionConverters.*
+import scala.util.{Failure, Success, Try}
 
 
 @main

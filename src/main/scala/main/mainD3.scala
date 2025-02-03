@@ -1,6 +1,7 @@
 package com.zounon
+package main
 
-import exercises.other.{Abs, Add, Arithmetic, Leaf, Mul, Node, TreeFunction, Value, X}
+import exercises.other.*
 
 import java.time.LocalDate
 import java.time.format.{DateTimeFormatter, FormatStyle}

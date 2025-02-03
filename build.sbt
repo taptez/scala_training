@@ -22,6 +22,9 @@ libraryDependencies += "com.typesafe.akka" %% "akka-actor-typed" % AkkaVersion
 libraryDependencies += "com.typesafe.akka" %% "akka-actor-testkit-typed" % AkkaVersion % Test
 
 
+libraryDependencies += "org.postgresql" % "postgresql" % "42.7.5"
+
+
 
 //libraryDependencies ++= Seq(
 //  "org.apache.spark" %% "spark-core" % "3.1.2",
